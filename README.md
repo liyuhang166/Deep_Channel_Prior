@@ -9,12 +9,12 @@ You can download the training data (100 unpaired images) and test data (50,000 f
 https://drive.google.com/drive/folders/1Q84HLFpjAFq91NG21piR-doxCTQHPU3q?usp=drive_link
 
 
-# training
+# Training
 python train_VGG16.py 
 
 python train_Resnet50.py
 
-# testing 
+# Testing 
 python test_VGG16.py
 
 python test_Resnet50.py
