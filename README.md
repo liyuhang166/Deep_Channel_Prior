@@ -1,4 +1,4 @@
-This is the official implementation code for "DCP: Deep Channel Prior for Visual Recognition in Real-world Degradations"
+Official implementation code for "DCP: Deep Channel Prior for Visual Recognition in Real-world Degradations"
 
 # Deep Channel Prior
 Deep Channel Prior (DCP) illustrates that the channel correlation matrix of features is an explicit means to reflect the corruption type of degraded images, while the feature itself can not represent its degradation type. DCP provides an explicit optimization direction for the unsupervised solution space by reducing the difference between the channel correlation matrices of degraded features and clear features.
