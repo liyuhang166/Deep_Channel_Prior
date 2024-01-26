@@ -6,7 +6,7 @@ Deep Channel Prior (DCP) illustrates that the channel correlation matrix of feat
 
 # Prepare data and weights
 You can download the training data (100 unpaired images) and test data (50,000 foggy images) of ImageNet-C (fog5) from the following path, as well as the corresponding weights：
-
+https://drive.google.com/drive/folders/1Q84HLFpjAFq91NG21piR-doxCTQHPU3q?usp=drive_link
 
 
 # training
