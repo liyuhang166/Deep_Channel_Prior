@@ -5,6 +5,8 @@ This is the official implementation code for "DCP: Deep Channel Prior for Visual
 # Prepare data and weights path
 You can download the training data (100 unpaired images) and test data (50,000 foggy images) of ImageNet-C (fog5) from the following path, as well as the corresponding weights：
 
+
+
 # training
 python train_VGG16.py 
 
