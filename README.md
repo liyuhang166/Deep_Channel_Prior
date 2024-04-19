@@ -10,6 +10,7 @@ https://drive.google.com/drive/folders/1Q84HLFpjAFq91NG21piR-doxCTQHPU3q?usp=dri
 
 # Structure of generators and discriminators
 For the generator, we employed two different structures overall. Specifically, in terms of the experiments on real datasets, we mainly utilized a U-Net style generator structure. The encoder consists of the input convolutional layer, two downsampling layers, and the dilated convolutional layer, while the decoder comprises two upsampling layers and the output convolutional layer. In terms of the experiments on synthetic datasets, we mainly adopted a flattened generator structure with residual connections. It consists of two basic blocks and a 1×1 convolutional layer, with each basic block containing several convolutional layers. For the discriminator, we exclusively utilized a PatchGAN discriminator, which comprises three convolutional layers and a sigmoid output layer.
+![Specific structure of the generators and discriminators](https://github.com/liyuhang166/Deep_Channel_Prior/blob/main/Generator.png)
 
 # Training
 python train_VGG16.py 
